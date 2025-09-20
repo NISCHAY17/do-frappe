@@ -44,7 +44,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: aldo-o/do-frappe
+      repo: NISCHAY17/do-frappe
     internal_ports:
       - 6379
     instance_size_slug: basic-s
@@ -55,7 +55,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: aldo-o/do-frappe
+      repo: NISCHAY17/do-frappe
     internal_ports:
       - 6379
     instance_size_slug: basic-s
