@@ -82,7 +82,7 @@ services:
       - 3306
     instance_size_slug: basic-s
     instance_count: 1
-  - dockerfile_path: Dockerfile
+  - dockerfile_path: images/frappe/Dockerfile  # ← FIXED: Changed from "Dockerfile"
     name: frappe
     github:
       branch: main
@@ -90,7 +90,6 @@ services:
       repo: NISCHAY17/do-frappe
     http_port: 8080
     internal_ports:
-      - 8888
       - 9000
       - 8000
     health_check:
